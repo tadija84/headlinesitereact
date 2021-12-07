@@ -1,0 +1,121 @@
+#klijenti {
+  display: block;
+  width: 100%;
+  /*min-height: 100vh;*/
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  color: #aa2924;
+}
+#klijentiNaslov {
+  text-align: left;
+  margin-left: 8vw;
+  margin-bottom: 5vh;
+}
+#clientsWrap {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+#clientsContainer {
+  display: grid;
+  grid-column-gap: auto;
+  grid-row-gap: 25px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+}
+.oneClient {
+  font-size: 30px;
+  text-align: center;
+  width: 15vw;
+  height: 10vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+#client1 {
+  background-image: url(../logoiKlijenata/1.png);
+}
+#client2 {
+  background-image: url(../logoiKlijenata/2.png);
+}
+#client3 {
+  background-image: url(../logoiKlijenata/3.png);
+}
+#client4 {
+  background-image: url(../logoiKlijenata/4.png);
+}
+#client5 {
+  background-image: url(../logoiKlijenata/5.png);
+}
+#client6 {
+  background-image: url(../logoiKlijenata/6.png);
+}
+#client7 {
+  background-image: url(../logoiKlijenata/7.png);
+}
+#client8 {
+  background-image: url(../logoiKlijenata/8.png);
+}
+#client9 {
+  background-image: url(../logoiKlijenata/9.png);
+}
+#client10 {
+  background-image: url(../logoiKlijenata/10.png);
+}
+#client11 {
+  background-image: url(../logoiKlijenata/11.png);
+}
+#client12 {
+  background-image: url(../logoiKlijenata/12.png);
+}
+#client13 {
+  background-image: url(../logoiKlijenata/13.png);
+}
+#client14 {
+  background-image: url(../logoiKlijenata/14.png);
+}
+#client15 {
+  background-image: url(../logoiKlijenata/15.png);
+}
+#client16 {
+  background-image: url(../logoiKlijenata/16.png);
+}
+#client17 {
+  background-image: url(../logoiKlijenata/17.png);
+}
+#client18 {
+  background-image: url(../logoiKlijenata/18.png);
+}
+#client19 {
+  background-image: url(../logoiKlijenata/19.png);
+}
+#client20 {
+  background-image: url(../logoiKlijenata/20.png);
+}
+.clientCont {
+  width: 100%;
+  height: 100%;
+}
+.oneClient:hover {
+  filter: grayscale(0%);
+}
+@media only screen and (max-width: 460px) {
+  #clientsContainer {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  }
+  .oneClient {
+    font-size: 30px;
+    text-align: center;
+    width: 25vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: grayscale(0);
+  }
+}

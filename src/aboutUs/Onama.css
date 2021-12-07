@@ -1,0 +1,82 @@
+.oNama {
+  display: grid;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  color: #aa2924;
+}
+.aboutText {
+  display: block;
+  justify-content: space-around;
+  padding-left: 8vw;
+}
+.aboutWrap {
+  width: 37vw;
+  height: 70vh;
+  display: grid;
+  justify-content: space-between;
+  color: black;
+}
+.aboutWrap h1 {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  border-bottom: solid 3px #aa2924;
+  border-collapse: separate;
+  border-spacing: 50px !important;
+}
+.aboutWrap h1::after {
+  content: "";
+  bottom: -30px;
+}
+.aboutWrap p {
+  margin-bottom: 5vh;
+}
+.numberCounter {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  width: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  background-image: url(./counterbackground.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.countsWrap {
+  width: 50vw;
+  height: 90vh;
+  background-color: rgba(43, 43, 43, 0.7);
+}
+.numbsWrap {
+  color: white;
+  width: 70%;
+  height: 40vh;
+  text-align: right;
+  margin-top: 30vh;
+}
+.numCount {
+  font-size: 3em;
+}
+.countFirstLine {
+  font-size: 0.9em;
+}
+.countLastLine {
+  font-size: 1.5em;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
